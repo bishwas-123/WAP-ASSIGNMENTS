@@ -27,7 +27,7 @@ h1 span{
 body{
 font-family: Georgia,Garamond, sans-serif;
 background-color: white;
-background-image: url(images/silverware.jpg);
+background-image: url(../images/silverware.jpg);
 color:#404040 ;
 font-size: 11pt;
     /* background-image:  */
@@ -53,7 +53,7 @@ font-size: 11pt;
   visibility: visible;
 }
 ul {
-    list-style-image: url(images/pie_icon.gif);
+    list-style-image: url(../images/pie_icon.gif);
 }
 
 a:link{

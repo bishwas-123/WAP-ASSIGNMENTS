@@ -10,6 +10,9 @@ font-weight:bold;
  width:100%;
 
 }
+.sub-list{
+    list-style-type: none;
+}
 h1 span{
     background-color:#F0F0F0; 
 }

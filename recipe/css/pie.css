@@ -52,7 +52,7 @@ font-size: 11pt;
 .ingredient-lists  .tooltip:hover .tooltiptext {
   visibility: visible;
 }
-ul {
+.list-items {
     list-style-image: url(../images/pie_icon.gif);
 }
 

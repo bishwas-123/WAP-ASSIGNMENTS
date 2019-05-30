@@ -1,0 +1,19 @@
+body{
+    font-family: Arial, Arial Black, Verdana, "Trebuchet MS", Georgia, Tahoma, "Courier New", "Times New Roman";
+    background-color: #595547;
+    color:white;
+}
+h1{
+    letter-spacing: 0.02em;
+    color:#9ec1f5;
+}
+h2{
+    letter-spacing: 0.02em;
+    color: #8faddc;
+}
+a{
+    color:red;
+}
+strong{
+    color:#f0d65e;
+}

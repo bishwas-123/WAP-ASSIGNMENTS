@@ -58,8 +58,11 @@ h1{
     clear: right;
     float: right;
     display: block;
-    width: 26%;
+    width: 23%;
     background: #a2b964;
+    padding-bottom: 59px;
+    margin-top: -2px;
+
 }
 .overview-side-image{
     float: right;
@@ -67,11 +70,14 @@ h1{
 .overview-side-image img{
     border-top-right-radius: 16px;
 }
+
 .review-text{
-    display: inline-block;
-    width: 36%;
+    
     margin: 12px 12px 12px 12px;;
     font-size: 11px;
+}
+.review-text-col{
+    flex: 1;
 }
 .review-text .quotes{
     border: 2px solid gray;
@@ -81,3 +87,33 @@ h1{
     font-size:13px;
     background-color: #e8dc9b;
 }
+
+.row{
+    display:flex;
+}
+.column{
+    width: 36%;
+    flex:1;
+}
+
+.footer-paging{
+    width:100%;
+    display: flex;
+    background-color: #a2b964;
+    height: 44px;
+    border-radius: 0px 0px 17px 17px;
+    margin: auto;
+    text-align: center;
+}
+.footer-paging p{
+    margin-left: 49%;
+    margin-top: 12px;
+}
+.validator-links{
+    position: fixed;
+    bottom: 23px;
+    left: 93%;
+}
+
+  
+

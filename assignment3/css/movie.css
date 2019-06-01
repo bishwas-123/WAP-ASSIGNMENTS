@@ -50,20 +50,12 @@ h1{
 
 .critics-heading span{
     position: absolute;
-    font-size: 42px;
+    font-size: 44px;
     margin-top: 16px;
     color: red;
+    font-weight: bold;
 }
-.sidebar-right{
-    clear: right;
-    float: right;
-    display: block;
-    width: 23%;
-    background: #a2b964;
-    padding-bottom: 59px;
-    margin-top: -2px;
 
-}
 .overview-side-image{
     float: right;
 }
@@ -95,6 +87,9 @@ h1{
     width: 36%;
     flex:1;
 }
+.row .column .review-text .authors span{
+    padding-left:39px;
+}
 
 .footer-paging{
     width:100%;
@@ -113,6 +108,33 @@ h1{
     position: fixed;
     bottom: 23px;
     left: 93%;
+}
+.sidebar-right{
+    padding: 15px;
+    clear: right;
+    float: right;
+    display: block;
+    width: 20%;
+    background: #a2b964;
+    padding-bottom: 59px;
+    margin-top: -2px;
+
+
+}
+.sidebar-right dl dt{
+    margin-top: 14px;
+    font-weight: bold;
+}
+.sidebar-right dl dd{
+    padding-left:15px;
+
+}
+.sidebar-right dl dd ul{
+    list-style-type: none;
+    margin-top:12px;
+}
+.authors p br{
+    padding-left:12px;
 }
 
   

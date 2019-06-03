@@ -22,10 +22,26 @@ size.onchange=function(){
 
 }
 
+function repeatAnimation(){
+    var val=ocument.getElementById("animation-screen-id").value;
+}
+
 function startAnimation(){
     start.disabled=true;
     stop.disabled=false;
     animation.disabled=true;
+
+    
+    //repeatAnimation();
+    // var timer = setInterval(frame, 10);
+    // function frame() {
+    //   if (pos == 350) {
+    //     clearInterval(id);
+    //   } else {
+    //     pos++; 
+    //     elem.style.top = pos + 'px'; 
+    //     elem.style.left = pos + 'px'; 
+    //   }
 
 }
 function stopAnimation(){

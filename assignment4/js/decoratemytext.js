@@ -19,21 +19,20 @@ function fontSizeDouble(){
 let blingChecked=document.getElementById("bling-checked");
 var m=0;
 blingChecked.onchange=function(){
-    
-    if(m==1){
-        m=0;
+      if(blingChecked.checked==true){
+        document.body.style.backgroundImage = "url('images/backImg.jpg')";
+        //document.getElementsByTagName("body").style.backgroundImage = "url('images/backImg.jpg')";
+        document.getElementById("comment-text").style.color="green";
+        document.getElementById("comment-text").style.textDecoration="underline";
+      }else{
         document.body.style.background= "none";
         document.body.style.background = '';
         document.body.style.backgroundUrl = '';
         document.body.style.backgroundColor = 'white';
-       
-    }
-    if(m==0){
-        document.body.style.backgroundImage = "url('images/backImg.jpg')";
-        //document.getElementsByTagName("body").style.backgroundImage = "url('images/backImg.jpg')";
-        document.getElementById("comment-text").style.textDecoration="underline";
-        m=1;
-    }
+        document.getElementById("comment-text").style.color="black";
+        document.getElementById("comment-text").style.textDecoration="normal";
+      }
+    // document.getElementById("mainDoc").classList.add("background-add");
    
     
 }

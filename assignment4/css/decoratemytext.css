@@ -26,3 +26,11 @@ textarea {
 	font-family: monospace;
 	font-size: 12pt;
 }
+.background-add{
+	background-image: url(images/backImg.jpg);
+}
+.background-remove{
+	background:none;
+	background-color: white;
+	
+}

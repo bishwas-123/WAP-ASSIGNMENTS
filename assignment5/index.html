@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/ascii.css'>
+  
+</head>
+<body>
+    <h1>ASCII Animation viewer</h1>
+
+    <div class="screen-wrap">
+            <textarea class="animation-screen" name="screen" id="animation-screen-id" cols="80" rows="20"></textarea>
+    </div>
+<div class="screen-controls">
+        <fieldset>
+                <legend>Play Controls:</legend>
+                <button id="start">Start</button>
+                <button id="stop">Stop</button>
+            </fieldset>
+            
+            <fieldset>
+                    <legend>Animation:</legend>
+                    <select name="animation" id="animation">
+                        <option value="Blank">Blank</option>
+                        <option value="Exercise">Exercise</option>
+                        <option value="Juggler">Juggler</option>
+                        <option value="Bike">Bike</option>
+                        <option value="Dive">Dive</option>
+                        <option value="Custom">Custom</option>
+                    </select>
+                </fieldset>
+                
+            <fieldset>
+                    <legend>Size:</legend>
+                    <select>
+                        <option>Medium</option>
+                    </select>
+                </fieldset>
+                     
+            <fieldset>
+                    <legend>Speed:</legend>
+                    <label><input type="checkbox"> Turbo</label>
+                </fieldset>
+</div>
+ 
+
+<script src='js/animation.js'></script>
+<script src='js/ascii.js'></script>
+    
+</body>
+</html>

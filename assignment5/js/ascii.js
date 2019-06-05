@@ -43,8 +43,8 @@
     stop.onclick=function(){
         clearInterval(timer);
         stopAnimation();
-        // var whichOne = "Blank";
-        // document.getElementById("animation-screen-id").value = ANIMATIONS[whichOne];
+        var whichOne = "Blank";
+        document.getElementById("animation-screen-id").value = ANIMATIONS[whichOne];
     }
     size.onchange=function(){
         var whichOne=this.value;

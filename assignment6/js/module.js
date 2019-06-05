@@ -1,29 +1,36 @@
-var screen=document.getElementById("accountScreen");
-var Account = (function() {
-    const accountList = [];
-    const createAccount = function(details) {
-        accountList.push(details);
-
+//simple module pattern
+const account =(function(){
+    const accountList=[];
+    return{
+         add:function(details){
+             accountList.push(details);
+         },
+         display: function(){
+           return accountList;
+         }
     }
-    function showAccount(){
-       return accountList;
-    }
-    return {
-        createAccount: createAccount,
-        show:showAccount
-    };
-    })();
+})();
 
-    let name=document.getElementById("accountName");
-    let deposit=document.getElementById("deposit");
-    const account=Account;
-    let details="Account Name:"+name.value+" Balance:"+deposit.value;
-    alert(details);
-    var click=document.getElementById("newAccount");
-    click.onclick=account.createAccount(details);
-    let res=account.show();
-    alert(res[0]);
-//     const musicModule = musicPlayer(); // invoke our musicPlayer to return it's object (module)
-// musicModule.playMusic(); // 'Im playing the next song!'
-// musicModule.pauseMusic(); // 'I'm paused!'
-// musicModule.showNextTrack();
+document.getElementById("newAccount").onclick=function(){
+  var account_name=document.getElementById("accountName").value;
+  var deposit=document.getElementById("deposit").value;
+  account.add({name: account_name, deposit: deposit});
+  // console.log(account.display());
+    
+  let x = account.display();
+  account.display().forEach((element)=>{
+    // console.log(element)
+     document.getElementById("accountScreen").value+=(`Account name: ${element.name}   Deposit: ${element.deposit}`+"\n");
+  });
+}
+
+
+
+
+
+      
+      // account.add({name: 'Biswas', id: 1});
+
+      // console.log(account.display());
+
+

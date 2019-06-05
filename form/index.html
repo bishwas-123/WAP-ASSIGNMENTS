@@ -5,23 +5,59 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    
+    <link rel='stylesheet' type='text/css' media='screen' href='css/form.css'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 </head>
 <body>
-    <h1>Personal Information</h1>
-    <form>
-        <fieldset>
-            <legend>Entry From</legend>
-            <label for="fname">First Name</label>
-            <input id="fname" type="text" name="fname"/>
-            <label for="lname">Last Name</label>
-            <input id="lname" type="text" name="lname"/>
-            <label for="mname">Mothers Maiden Name</label>
-            <input type="text" id="mname" name="mname"/>
+    
+        <h1>Guaranteed Low Rate Mastercard</h1>
+            <form class="form-row" style="margin:auto;">
+                    
+        <div class="col-md-1"></div>
+        
+                <!-- <fieldset class="the-fieldset"> -->
+                        <!-- <legend class="the-legend">Personal Information</legend> -->
+                    <div class="col-sm-4">
+                            <label for="fname">First Name</label>
+                            <input class="form-control" id="fname" type="text" name="fname"/>
 
-        </fieldset>
+                            <label for="dob">Date of Birth:</label>
+                            <input class="form-control" id="dob" type="date" name="dob"/>
+
+                    </div>
+                    <div class="col-sm-4">
+                            <label for="lname">Last Name</label>
+                            <input class="form-control" id="lname" type="text" name="lname"/>
+                            <label for="mname">Mothers Maiden Name</label>
+                            <input class="form-control" type="text" id="mname" name="mname"/>
+                     </div>
+                     <div class="col-sm-2 master-card">
+                        <img class="img-thumbnail" src="images/card-en.png" alt="card"/>
+                     </div>            
+            
+        <div class="col-sm-1"></div>
+
+        <div class="col-sm-1"></div>
+        <div class="col-sm-5">
+                <label for="sin">Social Insurance Number (Optional)</label>
+                <input class="form-control" type="text" id="sin" name="sin"/>
+         </div>
+         <div class="col-sm-5">
+                <label for="sin">How did you learn about this card? (Optional)</label>
+                <select class="form-control">
+                    <option>Main Offer</option>
+                    <option>Search Engine</option>
+                </select>
+         </div>
+        <div class="col-sm-1"></div>
+        <!-- </fieldset> -->
     </form>
+    
+    
 </body>
 <script src='main.js'></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </html>

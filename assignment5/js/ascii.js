@@ -12,6 +12,7 @@
     function startAnimation(){
         var whichOne=document.getElementById("animation");
         var whichOne = whichOne.options[whichOne.selectedIndex].value;
+        index=0;
         if(whichOne){
             toggleEvent();
             timer=setInterval(
@@ -21,7 +22,18 @@
         }
    
     }
-    document.getElementById("turbo").onchange=function(){
+ 
+    function startTimer(val) {
+        
+        var str=val.split("=====\n");
+         if(index==str.length){
+             index=0;
+         }
+         var x = str[index];
+         screen.value=x;
+         index++;
+      }
+      document.getElementById("turbo").onchange=function(){
         clearInterval(timer);
         if(document.getElementById("turbo").checked==false){
             turboStatus=250;
@@ -31,15 +43,7 @@
         }
         startAnimation();
     }
-    function startTimer(val) {
-        var str=val.split("=====\n");
-         if(index==str.length){
-             index=0;
-         }
-         var x = str[index];
-         screen.value=x;
-         index++;
-      }
+
     stop.onclick=function(){
         clearInterval(timer);
         stopAnimation();

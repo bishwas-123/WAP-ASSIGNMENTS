@@ -1,5 +1,6 @@
 //simple module pattern
 const account =(function(){
+  "use strict"
     const accountList=[];
     return{
          add:function(details){

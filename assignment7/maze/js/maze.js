@@ -1,5 +1,4 @@
 $(document).ready(function(){
-     
     let start=0;
         $("#start").on("click",function(){
             $("#maze").mouseout(function(){

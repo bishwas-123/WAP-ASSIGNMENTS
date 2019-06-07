@@ -2,7 +2,7 @@ $(document).ready(function(){
      "use strict"
     var start=0;
     var timer=0;
-        $("#start").on("click",function(e){
+        $("#start").on("click",function(){
              
              $("#status").text("STARTED  .........");
             start=1;
@@ -48,14 +48,14 @@ function checkoutSide(){
     
 }
 
-$(document).keypress(function(e) {
+// $(document).keypress(function(e) {
             
-    if (e.keyCode == 83 || e.keyCode == 115)
-          {
-          $("#start").click();
+//     if (e.keyCode == 83 || e.keyCode == 115)
+//           {
+//           $("#start").click();
               
-          }
-});
+//           }
+// });
        
 
      

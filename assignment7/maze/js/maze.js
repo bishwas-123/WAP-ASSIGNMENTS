@@ -1,11 +1,8 @@
 $(document).ready(function(){
-<<<<<<< HEAD
     let start=0;
-=======
      "use strict"
     var start=0;
     var timer=0;
->>>>>>> adad868c09f3dfbb9fc0393ec981d8162e7f502f
         $("#start").on("click",function(){
              
              $("#status").text("STARTED  .........");

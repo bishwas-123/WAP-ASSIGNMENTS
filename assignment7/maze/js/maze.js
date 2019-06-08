@@ -1,5 +1,4 @@
 $(document).ready(function(){
-    let start=0;
      "use strict"
     var start=0;
     var timer=0;

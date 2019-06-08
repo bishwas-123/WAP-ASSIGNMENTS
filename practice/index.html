@@ -9,6 +9,18 @@
     <script src='test.js'></script>
 </head>
 <body>
-    
+    <p>Some text in a paragraph.</p>
+<button id="makeSize32">Make body font size 32px</button>
+<script>
+window.onload = function () {
+document.getElementById("makeSize32").onclick = makeSize32(42);
+function makeSize32(val) {
+     return function(){
+        document.body.style.fontSize = val+"px";
+     }
+
+}
+}
+</script>
 </body>
 </html>

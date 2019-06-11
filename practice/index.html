@@ -5,7 +5,7 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'> -->
     <script src='test.js'></script>
 </head>
 <body>
@@ -13,13 +13,15 @@
 <button id="makeSize32">Make body font size 32px</button>
 <script>
 window.onload = function () {
-document.getElementById("makeSize32").onclick = makeSize32(42);
-function makeSize32(val) {
-     return function(){
-        document.body.style.fontSize = val+"px";
-     }
-
+function logger(f){
+f();
 }
+console.log(1);
+setTimeout(function(){ console.log(2); }, 1000);
+logger(function(){console.log(3)});
+setTimeout(function(){ console.log(4); }, 0);
+console.log(5); 
+
 }
 </script>
 </body>

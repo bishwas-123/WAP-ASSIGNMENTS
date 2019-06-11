@@ -1,3 +1,24 @@
+
+var x = 1;
+var y = 2;
+var z = 3;
+function foo() {
+ function foo1() {
+ console.log(`value of x: ${x}`);
+ console.log(`value of y: ${y}`);
+ console.log(`value of z: ${z}`);
+ }
+ var z = 4;
+ foo1();
+ var x = 3;
+ console.log(`value of x: ${x}`);
+ console.log(`value of y: ${y}`);
+}
+console.log(`value of y: ${y}`);
+foo();
+console.log(`value of x: ${x}`);
+console.log(`value of z: ${z}`);
+
 // var x = 5; // var is used intentionally
 // function foo() {console.log(this.x);}
 // foo();
@@ -8,23 +29,3 @@
 // obj.foo = foo;
 // obj.foo();
 
-var a = {
-    greet: '',
-    log: function() {
-    this.greet = 'Hello';
-    console.log(this.greet); // "Hello "
-    var changeGreet = function(greet) {
-    this.greet = greet;
-    }
-    changeGreet('Bonjour');
-    console.log(this.greet); // "Hello"
-    }
-    }
-    a.log();
-
-
-    function eat(){
-        console.log(eat.meal);
-        }
-        eat.meal = "pizza";
-        eat();

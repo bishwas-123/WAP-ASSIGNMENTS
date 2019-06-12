@@ -11,6 +11,6 @@
     <title>$Title$</title>
   </head>
   <body>
-  <a href='simple'>Start the simplest servlet app</a>
+  <a href='support'>cstech support form</a>
   </body>
 </html>

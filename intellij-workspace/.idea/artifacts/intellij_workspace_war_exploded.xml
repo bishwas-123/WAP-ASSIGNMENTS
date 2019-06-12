@@ -6,8 +6,10 @@
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="intellij-workspace" />
+          <element id="module-output" name="cstech" />
         </element>
       </element>
+      <element id="javaee-facet-resources" facet="cstech/web/Web" />
     </root>
   </artifact>
 </component>

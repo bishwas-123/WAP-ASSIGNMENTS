@@ -8,6 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7950b340-6122-49cf-9c69-e728ee35a02a" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/servletAssignment2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../custom-tag-demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../custom-tag-demo/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../intellij-workspace/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../intellij-workspace/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../intellij-workspace/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../intellij-workspace/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../intellij-workspace/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../intellij-workspace/pom.xml" afterDir="false" />
@@ -106,8 +107,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/filter/RequestLogFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+            <state relative-caret-position="204">
+              <caret line="18" column="72" lean-forward="true" selection-start-line="18" selection-start-column="72" selection-end-line="18" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -387,16 +388,15 @@
       <option name="presentableId" value="Default" />
       <updated>1560366182298</updated>
       <workItem from="1560366185781" duration="19323000" />
-      <workItem from="1560437436278" duration="16547000" />
+      <workItem from="1560437436278" duration="17094000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35870000" />
+    <option name="totallyTimeSpent" value="36417000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -408,7 +408,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.049099836" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.049099836" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.58919805" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -539,8 +539,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/filter/RequestLogFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+        <state relative-caret-position="204">
+          <caret line="18" column="72" lean-forward="true" selection-start-line="18" selection-start-column="72" selection-end-line="18" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -38,7 +38,6 @@ public class Myservlet extends HttpServlet {
                     resp.addCookie(rem);
 
                 }
-
                else{
                     Cookie user = new Cookie("uname", null);
                     user.setMaxAge(0);
@@ -47,7 +46,6 @@ public class Myservlet extends HttpServlet {
                    rem.setMaxAge(0);
                    resp.addCookie(rem);
                }
-
                 HttpSession httpSession = req.getSession();
                 httpSession.setAttribute("user", userName.trim());
                 RequestDispatcher requestDispatcher = req.getRequestDispatcher("/welcome.jsp");

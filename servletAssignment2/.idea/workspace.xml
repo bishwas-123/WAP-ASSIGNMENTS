@@ -7,11 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7950b340-6122-49cf-9c69-e728ee35a02a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../rec_center_test/.idea/rec_center_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gson-crud/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gson-crud/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rec_center" beforeDir="false" afterPath="$PROJECT_DIR$/../rec_center" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/servletAssignment2_war_exploded/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/servletAssignment2_war_exploded/welcome.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/Myservlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/Myservlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/welcome.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shopping/shopping.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -185,7 +184,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />

@@ -9,7 +9,7 @@
     <list default="true" id="7950b340-6122-49cf-9c69-e728ee35a02a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../gson-crud/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gson-crud/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rec_center" beforeDir="false" afterPath="$PROJECT_DIR$/../rec_center" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rec_center/src/main/java/model/CheckInUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rec_center/src/main/java/model/CheckInUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -98,8 +98,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="32" column="2" selection-start-line="32" selection-start-column="2" selection-end-line="34" selection-end-column="53" />
+            <state relative-caret-position="206">
+              <caret line="35" column="40" lean-forward="true" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -220,6 +220,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="loginForm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="servletAssignment2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="loginForm" type="b2602c69:ProjectViewProjectNode" />
@@ -356,12 +364,12 @@
       <workItem from="1560566627580" duration="560000" />
       <workItem from="1560571164564" duration="1168000" />
       <workItem from="1560632578999" duration="5877000" />
-      <workItem from="1560694056931" duration="3339000" />
+      <workItem from="1560694056931" duration="4482000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52807000" />
+    <option name="totallyTimeSpent" value="53950000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -501,8 +509,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="32" column="2" selection-start-line="32" selection-start-column="2" selection-end-line="34" selection-end-column="53" />
+        <state relative-caret-position="206">
+          <caret line="35" column="40" lean-forward="true" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
         </state>
       </provider>
     </entry>
